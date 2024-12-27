@@ -1,0 +1,401 @@
+*{
+    
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    /* background: aquamarine; */
+}
+
+#header{
+
+    height: 13%;
+    width: 100%;
+    position: fixed;
+    background: rgb(249, 248, 250);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#contactdetails{
+
+    font-weight: lighter;
+}
+
+.text{
+    color: rgb(5, 5, 61);
+    
+}
+
+.text:hover{
+    color: rgb(24, 24, 232);
+}
+
+#logo{
+    height: 70%;
+    
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.icon{
+    border-radius: 50%;
+   
+
+    padding: 12px;
+}
+
+.icon:hover{
+    background-color: rgb(126, 171, 238);
+
+}
+
+#login{
+    padding: 12px;
+    border-radius: 50px;
+    
+}
+
+#login:hover{
+    background-color: rgb(85, 98, 212);
+}
+
+#try{
+     background-color: rgb(35, 113, 9);
+     color: white;
+     padding: 12px;
+     border-radius: 10px;
+
+}
+
+#try:hover{
+    background-color: rgb(52, 187, 52);
+}
+
+#page1{
+
+    width: 100%;
+    height: 87%;
+    /* background-color: aquamarine; */
+}
+
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(23, 4, 98);
+    justify-content: center;
+    /* text-align: center; */
+     display: flex;
+    color: aliceblue;
+    align-items: center;
+}
+
+#strip u{
+    margin-left: 950px;
+    font-weight: lighter;
+
+
+}
+
+#content{
+    height: 76%;
+    width: 100%;
+    /* background-color: rgb(206, 159, 72); */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#box1{
+    height: 90%;
+    width: 47%;
+    /* background-color: antiquewhite; */
+    
+}
+
+#box1 h1{
+    font-weight: 600;
+    color: rgb(3, 3, 97);
+    font-size: 50px;
+    margin: 30px 20px;
+
+}
+
+#box1 p{
+    font-size:x-large;
+    font-weight: lighter;
+    margin: 30px 20px;
+}
+
+#btns{
+    
+    display: flex;
+    
+
+}
+
+#btn1{
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    width: 23%;
+    height: 20px;
+    background-color: rgb(39, 39, 224);
+    color: white;
+    margin-left: 20px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+#btn2{
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 10px;
+    width: 23%;
+    height: 20px; 
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+
+     
+}
+
+#btn2:hover{
+    background-color: rgb(185, 206, 246);
+    
+
+}
+#box2{
+    height: 90%;
+    width: 47%;
+    /* background-color: rgb(31, 138, 187); */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    
+
+}
+
+#box2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+#heading{
+
+    height: 16%;
+    width: 100%;
+    background-color: white(224, 231, 232, 0.593);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(2, 2, 66);
+}
+
+#heading h1{
+    font-weight: 600;
+}
+ 
+#header2{
+    width: 100%;
+    height: 13%;
+    background-color: aquamarine(168, 232, 65);
+}
+
+
+
+
+#page2{
+
+    width: 100%;
+    height: 87%;
+    /* background-color: rgb(169, 59, 128); */
+    object-fit: cover;
+}
+
+#cards{
+    justify-content: space-around;
+    margin-top: 30px;
+    display: flex;
+    box-shadow: 10px;
+   
+}
+
+#card1{
+    border: 2px solid rgb(230, 211, 176);
+    height: 450px;
+    width: 290px;
+    border-radius: 10px;
+    /* background-color: rgb(232, 237, 222); */
+    overflow: hidden;
+
+}
+
+#card1 h2{
+    margin-top: 30px;
+    margin: 45px;
+    font-weight: 600;
+    color: rgb(22, 22, 118);
+}
+
+#card1 p{
+   margin: 45px;
+}
+
+#card u{
+    margin: 45px;
+    color: rgb(99, 57, 3);
+}
+
+
+
+#card2{
+    border: 2px solid rgb(230, 211, 176);
+    height: 450px;
+    width: 290px;
+    border-radius: 10px;
+    /* background-color: rgb(224, 226, 215); */
+    overflow: hidden;
+
+}
+
+#card2 h2{
+    margin: 45px;
+    font-weight: 600;
+    color: rgb(22, 22, 118);
+}
+
+#card2 p{
+    margin: 45px;
+ }
+
+ 
+
+#card3{
+    border: 2px solid rgb(230, 211, 176);
+    height: 450px;
+    width: 290px;
+    border-radius: 10px;
+    /* background-color: rgb(217, 225, 201); */
+    overflow: hidden;
+
+    
+}
+
+#card3 h2{
+    margin: 45px;
+    font-weight: 600;
+    color: rgb(22, 22, 118);
+}
+
+ 
+
+#card3 p{
+    margin: 45px;
+ }
+
+ 
+
+
+#card4{
+    border: 2px solid rgb(230, 211, 176);
+    height: 450px;
+    width: 290px;
+    border-radius: 10px;
+    /* background-color: rgb(230, 233, 204); */
+    overflow: hidden;
+
+}
+
+#card4 h2{
+    margin: 45px;
+    font-weight: 600;
+    color: rgb(22, 22, 118);
+}
+
+
+#card3 p{
+    margin: 45px;
+ }
+ 
+
+#page2 img{
+    object-fit: cover;
+    height: 70%;
+    width: 100%;
+}
+
+#card4 p{
+    margin: 30px;
+ }
+
+#cards img{
+    height: 30%;
+     width: 100%;
+   
+}
+
+#page3{
+    width: 100%;
+    height: 87%;
+
+}
+
+#kart{
+    height: 100%;
+    width: 95%;
+    /* background-color: beige; */
+    margin-left: 35px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: x-large;
+    font-weight: 600;
+     
+}
+
+#kart h1{
+    font-weight: 400;
+}
+
+#kart p{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: 100;
+
+}
+
+
+    
